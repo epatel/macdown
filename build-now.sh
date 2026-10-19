@@ -15,7 +15,7 @@ xcodebuild \
     -configuration Debug \
     -derivedDataPath build/DerivedData \
     CODE_SIGN_IDENTITY=- \
-    MACOSX_DEPLOYMENT_TARGET=10.13 \
+    MACOSX_DEPLOYMENT_TARGET=12.0 \
     ARCHS=arm64 \
     ONLY_ACTIVE_ARCH=NO \
     build
